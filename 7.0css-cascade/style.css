@@ -11,4 +11,17 @@ p {
   padding: 0;
 }
 
+#outer-box  {
+  background: purple;
+}
 
+
+.inner-box {
+  background:  red;
+}
+
+
+
+.white-text {
+  color: white;
+}
