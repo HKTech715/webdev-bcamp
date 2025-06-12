@@ -1,17 +1,30 @@
 /* Write your code here: */
 
+/* Group Selectors> separated by a comma "," */
 h1, h2 {
   color: blueviolet;
 }
 
+/* Child Selectors> separated by a ">" */
 .box > .done {
   color: firebrick
 }
 
+/* Decendent Selctors> separated by a single space */
 .box li
 {
   color: blue;
 }
 
+/* Chaining Selectors> grouped together with no spaces
+elements must  be first */
+li.done {
+  color: seagreen;
+}
+
+/* Combining Combiners> Ancestor Element/Class Chained */
+ul p.done {
+ font-size: .5rem;
+}
 
 
